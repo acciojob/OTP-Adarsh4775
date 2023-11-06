@@ -1,31 +1,49 @@
-/*  your css code here. If applicable */
-.box{
-	width:700px;
-	height:300px;
-	border:2px solid black;
+/* Style for the container that holds the form */
+.box {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
-h2{
-	text-align:center;
-	font-family:verdana;
+
+/* Style for the heading */
+#verification_heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
-p{
-	text-align:center;
-	font-family:garamond;
+
+/* Style for the subtext paragraph */
+#verification_subtext {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
 }
-.code{
-	width:80px;
-	height:80px;
-	margin-left:22px;
-	color:black;
-	font-size:60px;
-	text-align:center;
-	border-radius:5px;
-	border: 2px solid coral;
+
+/* Style for the code input fields */
+.code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.boot{
-	background-color:red;
-	padding:10px;
-	color:white;
-	margin:40px;
-	cursor:pointer;
+
+/* Style for the individual code input fields */
+#code-1, #code-2, #code-3, #code-4, #code-5, #code-6 {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the design note */
+.boot {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
 }

@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     input.value = '';
                     focusedInputIndex--;
                     codeInputs[focusedInputIndex].focus();
+                } else if (focusedInputIndex === codeInputs.length - 1) {
+                    // If 'Backspace' is pressed on the last input, maintain its ID as 'code-5'
+                    input.value = '';
                 }
             }
         });

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Set the IDs for the remaining input fields
     for (let i = 1; i <= 5; i++) {
-        document.getElementById('code-' + i).id = 'code-' + (i + 1);
+        document.getElementById('code-1' + i).id = 'code-0' + (i + 1);
     }
 
     const codeInputs = document.querySelectorAll('.code');
